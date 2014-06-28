@@ -51,4 +51,5 @@ scheduler.config.readonly = true;
     $$("scheduler").load("http://192.168.5.207/HMSMain/HMS/Ajaxservices/Cordova.svc/iHMS/Getevents?consid=" + consid + "&hospid=" + hospid,"json");
     $$('scheduler').$$('month').show();
     $$('scheduler').$$('buttons').setValue('month');
+    $$("scheduler").$$("dayList").define("timeScaleHeight",60);
 }
